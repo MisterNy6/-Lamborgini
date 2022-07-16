@@ -1,0 +1,136 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+body{
+font-family: 'Roboto Slab', serif;
+font-size:30px;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+background-color:rgba(25, 25, 28, 0.82);
+padding:10px;
+}
+
+header a{
+text-decoration:none;
+color:rgba(235, 235, 240, 0.82);
+}
+
+body { margin: 0; } 
+div#slider { overflow: hidden; }
+div#slider figure img { width: 20%; float: left; }
+div#slider figure { 
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 30s slidy infinite; 
+}
+
+.model1{
+background-image:url("https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/aventador/Ultimae/2022/05_18/gallery/aven_ultimae_03.jpg");
+background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height:100%;
+  color:white;
+  display:flex;
+  justify-content:space-evenly;
+  align-items:flex-end;
+  flex-wrap:wrap;
+}
+
+.model2{
+background-image:url("https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/huracan/sto/og/huracan_sto_og.jpg");
+background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height:100%;
+  color:white;
+  display:flex;
+  justify-content:space-evenly;
+  align-items:flex-end;
+  flex-wrap:wrap;
+}
+
+.model3{
+background-image:url("https://i0.wp.com/rayhaber.com/wp-content/uploads/2020/07/lamborghini-sian-roadstermasmavi-gokyuzunun-altinda-gelecegin-teknolojisi.jpg?fit=1424%2C800&ssl=1");
+background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height:100%;
+  color:white;
+  display:flex;
+  justify-content:space-evenly;
+  align-items:flex-end;
+  flex-wrap:wrap;
+}
+
+.model4{
+background-image:url("https://cdn.motor1.com/images/mgl/ZpzNy/s3/lamborghini-huracan-evo-rwd-spyder.jpg");
+background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height:100%;
+  color:white;
+  display:flex;
+  justify-content:space-evenly;
+  align-items:flex-end;
+  flex-wrap:wrap;
+}
+
+.model5{
+background-image:url("https://www.allcarz.ru/wp-content/uploads/2017/11/foto-lamborghini-urus_13.jpg");
+background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height:100%;
+  color:white;
+  display:flex;
+  justify-content:space-evenly;
+  align-items:flex-end;
+  flex-wrap:wrap;
+}
+
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+
+@media only screen and (max-width:750px){
+.model1 article{
+width:100%;
+}
+}
+
+
